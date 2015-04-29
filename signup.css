@@ -11,7 +11,7 @@ body {
   max-width: 700px;
   min-width: 280px;
   width: 100%
-  border: 1px solid #000000;
+  border: 1px solid #999999;
   background-color: white;
   margin: 0 auto;
 }
@@ -60,16 +60,14 @@ body {
   margin-bottom: 12px;
 }
 
-
 input[type='text'] {
   font-size: 12px;
-  margin: 1px 0 0 5px;
   padding: 3px;
 }
 
 .server-question {
   width: 20%;
-  margin: 1px 0 0 5px;
+  margin: 1px 0;
 }
 
 .written-question {
@@ -79,27 +77,27 @@ input[type='text'] {
 
 input[type='radio'] {
   color: #3C3C3C;
-  margin: 2px 0 0 5px;
 }
 
 input[type='checkbox'] {
   color: #3C3C3C;
   cursor: wait;
-  margin: 6px 0 0 5px;
 }
 
 select {
   color: #3C3C3C;
-  margin: 1px 0 0 5px;
   padding: 1px;
 
 }
 
 textarea {
-  margin: 1px 0 0 5px;
   padding: 5px;
 }
 
 hr {
   margin: 16px 0;
+}
+
+a {
+  color: #5f4576;
 }
